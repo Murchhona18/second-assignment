@@ -1,8 +1,67 @@
 
+/* shared styles */
 .inter-font> {
   font-family: "Inter", sans-serif;
 }
 
+.display-flex {
+  display: flex;
+}
+
+.btn {
+  padding: 12px 16px;
+  color: white;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 600px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+
+/* nav styles */
+
 .nav-container{
-    display: flex;
+    background-color: #1A0B2E;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+
+ .nav-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+.lists {
+  gap: 32px;
+}
+
+/* header-styles */
+.header-container {
+  background-image: url('./assets/hero-bg.png');
+  background-size: 100%;
+  background-position: center;
+  height: 47.5rem;
+  position: relative;
+}
+
+.header-container .b-image {
+  position: absolute;
+  top: 101px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.header-container .t-image {
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
