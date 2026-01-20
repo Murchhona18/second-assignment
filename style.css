@@ -1,14 +1,15 @@
 
 /* shared styles */
-.inter-font> {
+.inter-font {
   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .display-flex {
   display: flex;
 }
 
-.btn {
+.gradient-btn {
   padding: 12px 16px;
   color: white;
   border-radius: 1000px;
@@ -26,6 +27,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 200px;
+    border-bottom: #582996 1px solid;
 }
 
  .nav-links a{
@@ -46,22 +48,58 @@
   background-image: url('./assets/hero-bg.png');
   background-size: 100%;
   background-position: center;
-  height: 47.5rem;
+  height: 100%;
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-container .b-image {
   position: absolute;
-  top: 101px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 10%;
+  left: 39%;
   z-index: 1;
 }
 
 .header-container .t-image {
   position: absolute;
-  top: 170px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+  top: 22%;
+  left: 47%;
+  z-index: 2;
 }
+
+.header-text {
+  color: white;
+  text-align: center;
+  margin: 40px 480px 101px 480px;
+}
+
+.header-text h1 {
+  font-size: 60px;
+  font-weight: 800px;
+  margin-top: 390px;
+  margin-bottom: 8px;
+}
+
+.header-text p {
+  font-size: 16px;
+  font-weight: 500px;
+  opacity: 80%;
+}
+
+.green-btn {
+  padding: 12px 20px;
+  color: #00FF88;
+  border-radius: 1000px;
+  font-size: 16px;
+  font-weight: 600px;
+  border: #00FF88 2px solid;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: 16px;
+}
+
+
+
