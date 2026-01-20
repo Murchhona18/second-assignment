@@ -159,3 +159,71 @@
   text-align: center;
 }
 
+/* card-section */
+.card-container {
+  background-color: #230E3D;
+  padding-bottom: 120px;
+}
+
+.card-container h1{
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat (6, 225px);
+  gap: 30px;
+  margin: 40px 200px 0px 200px;
+}
+
+.cards h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.cards p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: white;
+  opacity: 60%;
+  margin-top: 16px;
+}
+
+.card-1 {
+  grid-column: span 2;
+  grid-row: span 4;
+  padding: 107px 40px;
+  border-radius: 40px;
+  background-color: rgba(53, 17, 101, 40%);
+  box-shadow: rgba(0, 0, 0, 0.305) 0px 4px 4px;
+}
+
+.card-2 {
+  grid-column: span 4;
+  grid-row: span 2;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: rgba(53, 17, 101, 40%);
+  box-shadow: rgba(0, 0, 0, 0.305) 0px 4px 4px;
+}
+.card-3 {
+  grid-column: span 4;
+  grid-row: span 2;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: rgba(53, 17, 101, 40%);
+  box-shadow: rgba(0, 0, 0, 0.305) 0px 4px 4px;
+}
+.card-4 {
+  grid-column: span 2;
+  grid-row: span 2;
+  padding: 40px;
+  border-radius: 40px;
+  background-color: rgba(53, 17, 101, 40%);
+  box-shadow: rgba(0, 0, 0, 0.305) 0px 4px 4px;
+}
