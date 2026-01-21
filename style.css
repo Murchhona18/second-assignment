@@ -253,6 +253,7 @@
 .episodes-cards .featured-video iframe {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  border: none;
 }
 
 .ep-card-h1 {
