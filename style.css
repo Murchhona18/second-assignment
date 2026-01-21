@@ -474,7 +474,7 @@
 .header-container #new {
   position: absolute;
   top: 12%;
-  left: 60%;
+  left: 58%;
 }
 
 .header-container .b-image {
@@ -482,7 +482,7 @@
   height: 200px;
   width: 200px;
   top: 15%;
-  left: 30%;
+  left: 32%;
   z-index: 1;
 }
 
@@ -599,31 +599,25 @@
 }
 
 .featured-ep-container h1 {
-  font-size: 48px;
+  font-size: 32px;
   font-weight: bold;
   color: white;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 40px;
 }
 
 .episodes-cards {
-  display: flex;
+  display: block;
   gap: 30px;
   align-items: center;
-  margin: 40px 200px 120px 200px;
-}
-
-.episodes-cards .featured-video iframe {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border: none;
+  margin: 20px 20px 20px 20px;
 }
 
 .ep-card-h1 {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  margin: 24px 24px;
+  margin: 8px 16px;
 }
 
 .ep-card-p {
@@ -631,7 +625,7 @@
   font-size: 16px;
   font-weight: 400px;
   opacity: 60%;
-  margin: 0px 24px;
+  margin: 0px 16px;
   line-height: 24px;
 }
 
@@ -655,6 +649,12 @@
   background-color: #250D44;
   margin-bottom: 60px;
   box-shadow: black 0px 4px 4px ;
+}
+.episode-card-1 iframe, .episode-card-2 iframe, .episode-card-3 iframe {
+  width:100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border: none;
 }
 
 /* host-section */
