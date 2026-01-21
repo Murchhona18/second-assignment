@@ -293,3 +293,69 @@
   margin-bottom: 60px;
   box-shadow: black 0px 4px 4px ;
 }
+
+/* host-section */
+
+.host-container {
+  background-color: #1A0B2E ;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.host-container h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+
+.host-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 40px 200px 0px 200px;
+  background-color: rgba(53, 17, 101, 40%);
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.host-card h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.host-card p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: white;
+  opacity: 60%;
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+.host-card .social-icons {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.host-card .social-icons .icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  border: 2px solid #533C72;
+  align-items: center;
+  justify-content: center;
+}
+
+.host-card .social-icons a img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
