@@ -77,6 +77,20 @@
   align-items: center;
 }
 
+.header-container #new {
+  position: absolute;
+  top: 10%;
+  left: 57%;
+  color: black;
+  font-size: 18px;
+  font-weight: semi-bold;
+  background-color:#00FF88;
+  box-shadow: rgba(0, 255, 136, 50%) 0px 3px 27px;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  z-index: 3;
+}
+
 .header-container .b-image {
   position: absolute;
   top: 10%;
