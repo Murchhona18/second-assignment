@@ -38,10 +38,6 @@
   background-color:#FB09B4;
 }
 
-.social-icons a:hover {
-  background-color:white;
-}
-
 .btn img{
   vertical-align: middle;
 }
@@ -97,6 +93,11 @@
   padding: 8px 16px;
   border-radius: 1000px;
   z-index: 3;
+  transition: transform 1s;
+}
+
+#new:hover {
+  transform: translateY(50px);
 }
 
 .header-container .b-image {
@@ -111,6 +112,10 @@
   top: 22%;
   left: 47%;
   z-index: 2;
+  transition: transform 1s;
+}
+.t-image:hover {
+  transform: translateY(-20px);
 }
 
 .header-text {
@@ -384,6 +389,11 @@
   display: flex;
   gap: 8px;
   margin-top: 16px;
+  transition: transform 2s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px);
 }
 
 .host-card .social-icons .icon-wrapper {
@@ -702,7 +712,7 @@
   background-image: url('./assets/footer-responsive.png');
   background-size: 100%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer-container .footer-logo {
@@ -726,5 +736,6 @@
   margin-top: 24px;
   font-size: 16px;
   padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 }
