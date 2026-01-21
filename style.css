@@ -250,6 +250,11 @@
   margin: 40px 200px 120px 200px;
 }
 
+.episodes-cards .featured-video iframe {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
 .ep-card-h1 {
   color: white;
   font-size: 24px;
@@ -276,7 +281,6 @@
 .time img {
   height: 20px;
   width: 20px;
-  position: relative;
 }
 .time p {
   color: #00FF88;
